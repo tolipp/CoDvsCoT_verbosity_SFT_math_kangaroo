@@ -1,0 +1,25 @@
+{
+  "base_model": "Qwen/Qwen3-8B",
+  "eval_file": "/kaggle/input/datasets/tolipp/qwen3-8b-eval-seed1337-flat/test_2025_prompt_answer.jsonl",
+  "finetune_zip": null,
+  "changed_model_dir": "/kaggle/input/datasets/tolipp/qwen3-8b-eval-seed1337-flat/condition_3a_seed1337",
+  "changed_model_kind": "adapter",
+  "max_new_tokens": 4096,
+  "start": 0,
+  "limit": 36,
+  "mode": "changed",
+  "base": null,
+  "changed": {
+    "correct": 17,
+    "total": 36,
+    "accuracy_percent": 47.22222222222222,
+    "max_token_hits": 8
+  },
+  "delta_accuracy_percent": null,
+  "outputs": {
+    "base_results_jsonl": "/kaggle/working/eval_outputs/eval_3a_seed1337_test2025/shard_0/evaluation_results_base.jsonl",
+    "changed_results_jsonl": "/kaggle/working/eval_outputs/eval_3a_seed1337_test2025/shard_0/evaluation_results_changed.jsonl",
+    "base_progress_json": "/kaggle/working/eval_outputs/eval_3a_seed1337_test2025/shard_0/progress_base.json",
+    "changed_progress_json": "/kaggle/working/eval_outputs/eval_3a_seed1337_test2025/shard_0/progress_changed.json"
+  }
+}

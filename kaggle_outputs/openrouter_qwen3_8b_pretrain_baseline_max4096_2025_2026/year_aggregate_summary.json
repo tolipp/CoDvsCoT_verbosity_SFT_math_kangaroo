@@ -1,0 +1,38 @@
+[
+  {
+    "year": 2025,
+    "runs": 3,
+    "seeds": "42,1337,2024",
+    "total_per_run": 71,
+    "correct_values": "29,33,35",
+    "strict_accuracy_mean_percent": 45.539906103286384,
+    "strict_accuracy_sd_percent": 4.302887976484356,
+    "strict_accuracy_min_percent": 40.845070422535215,
+    "strict_accuracy_max_percent": 49.29577464788733,
+    "scorable_accuracy_mean_percent": 45.76123407109323,
+    "scorable_accuracy_sd_percent": 4.391498856930145,
+    "answer_predicted_none_total": 1,
+    "errors_total": 0,
+    "finish_reason_length_total": 2,
+    "completion_tokens_eq_max_total": 2,
+    "estimated_cost_sum_reported_rows": 0.087903004
+  },
+  {
+    "year": 2026,
+    "runs": 3,
+    "seeds": "42,1337,2024",
+    "total_per_run": 69,
+    "correct_values": "27,34,28",
+    "strict_accuracy_mean_percent": 42.99516908212561,
+    "strict_accuracy_sd_percent": 5.486867966956789,
+    "strict_accuracy_min_percent": 39.130434782608695,
+    "strict_accuracy_max_percent": 49.275362318840585,
+    "scorable_accuracy_mean_percent": 43.583446789920814,
+    "scorable_accuracy_sd_percent": 4.948851543916462,
+    "answer_predicted_none_total": 3,
+    "errors_total": 0,
+    "finish_reason_length_total": 5,
+    "completion_tokens_eq_max_total": 5,
+    "estimated_cost_sum_reported_rows": 0.09489231000000001
+  }
+]

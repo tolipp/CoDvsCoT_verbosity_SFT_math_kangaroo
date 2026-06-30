@@ -1,0 +1,25 @@
+{
+  "condition": "seed42",
+  "model": "qwen/qwen3-8b",
+  "eval_file": "/Users/user1/git/Bachelor Thesis/API-requests/SFT on qwen/kaggle_outputs/qwen3_8b_eval_2026/support/test_2026_prompt_answer.jsonl",
+  "results_jsonl": "/Users/user1/git/Bachelor Thesis/API-requests/SFT on qwen/kaggle_outputs/openrouter_qwen3_8b_pretrain_baseline_max4096_2025_2026/condition_seed42_openrouter_qwen3_8b_test_2026_max4096.jsonl",
+  "output_suffix": "test_2026_max4096",
+  "max_tokens": 4096,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "seed": 42,
+  "disable_reasoning": true,
+  "completed_ok": 69,
+  "errors": 0,
+  "correct": 27,
+  "scorable": 67,
+  "strict_accuracy": 0.391304347826087,
+  "scorable_accuracy": 0.40298507462686567,
+  "answer_predicted_none": 2,
+  "usage_totals": {
+    "prompt_tokens": 14414,
+    "completion_tokens": 77762,
+    "total_tokens": 92176
+  },
+  "updated_at": "2026-06-17T17:32:38"
+}

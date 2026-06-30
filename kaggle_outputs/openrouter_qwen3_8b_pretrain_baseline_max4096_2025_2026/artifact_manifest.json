@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-06-17T17:50:59",
+  "purpose": "OpenRouter Qwen3-8B pretraining/baseline runs for 2025 and 2026 Kaenguru evaluation sets with max_tokens=4096.",
+  "output_directory": "/Users/user1/git/Bachelor Thesis/API-requests/SFT on qwen/kaggle_outputs/openrouter_qwen3_8b_pretrain_baseline_max4096_2025_2026",
+  "runner_script": "scripts/run_openrouter_qwen3_8b_pretrain_baseline.py",
+  "model": "qwen/qwen3-8b",
+  "api": "OpenRouter chat completions",
+  "settings": {
+    "max_tokens": 4096,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "disable_reasoning": true,
+    "workers": 4,
+    "seeds": [
+      42,
+      1337,
+      2024
+    ]
+  },
+  "eval_files": {
+    "2025": "generated_files/kaggle_qwen3_8b_eval_seed42_flat/test_2025_prompt_answer.jsonl",
+    "2026": "kaggle_outputs/qwen3_8b_eval_2026/support/test_2026_prompt_answer.jsonl"
+  },
+  "derived_files": {
+    "per_run_csv": "run_matrix_summary.csv",
+    "per_run_json": "run_matrix_summary.json",
+    "year_aggregate_csv": "year_aggregate_summary.csv",
+    "year_aggregate_json": "year_aggregate_summary.json"
+  },
+  "runs": [
+    {
+      "year": 2025,
+      "seed": 1337,
+      "summary_json": "condition_seed1337_openrouter_qwen3_8b_test_2025_max4096.summary.json",
+      "results_jsonl": "condition_seed1337_openrouter_qwen3_8b_test_2025_max4096.jsonl",
+      "rows": 71,
+      "correct": 33,
+      "strict_accuracy_percent": 46.478873239436616
+    },
+    {
+      "year": 2026,
+      "seed": 1337,
+      "summary_json": "condition_seed1337_openrouter_qwen3_8b_test_2026_max4096.summary.json",
+      "results_jsonl": "condition_seed1337_openrouter_qwen3_8b_test_2026_max4096.jsonl",
+      "rows": 69,
+      "correct": 34,
+      "strict_accuracy_percent": 49.275362318840585
+    },
+    {
+      "year": 2025,
+      "seed": 2024,
+      "summary_json": "condition_seed2024_openrouter_qwen3_8b_test_2025_max4096.summary.json",
+      "results_jsonl": "condition_seed2024_openrouter_qwen3_8b_test_2025_max4096.jsonl",
+      "rows": 71,
+      "correct": 35,
+      "strict_accuracy_percent": 49.29577464788733
+    },
+    {
+      "year": 2026,
+      "seed": 2024,
+      "summary_json": "condition_seed2024_openrouter_qwen3_8b_test_2026_max4096.summary.json",
+      "results_jsonl": "condition_seed2024_openrouter_qwen3_8b_test_2026_max4096.jsonl",
+      "rows": 69,
+      "correct": 28,
+      "strict_accuracy_percent": 40.57971014492754
+    },
+    {
+      "year": 2025,
+      "seed": 42,
+      "summary_json": "condition_seed42_openrouter_qwen3_8b_test_2025_max4096.summary.json",
+      "results_jsonl": "condition_seed42_openrouter_qwen3_8b_test_2025_max4096.jsonl",
+      "rows": 71,
+      "correct": 29,
+      "strict_accuracy_percent": 40.845070422535215
+    },
+    {
+      "year": 2026,
+      "seed": 42,
+      "summary_json": "condition_seed42_openrouter_qwen3_8b_test_2026_max4096.summary.json",
+      "results_jsonl": "condition_seed42_openrouter_qwen3_8b_test_2026_max4096.jsonl",
+      "rows": 69,
+      "correct": 27,
+      "strict_accuracy_percent": 39.130434782608695
+    }
+  ]
+}

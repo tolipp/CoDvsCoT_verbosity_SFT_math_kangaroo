@@ -1,0 +1,26 @@
+{
+  "base_model": "Qwen/Qwen3-8B",
+  "eval_file": "/kaggle/input/datasets/tolipp/qwen3-8b-eval-2026-prompts/test_2026_prompt_answer.jsonl",
+  "finetune_artifact": "/kaggle/input/datasets/tolipp/qwen3-8b-eval-seed2024-flat/condition_1_seed2024",
+  "condition": "1",
+  "seed": 2024,
+  "eval_split": "test_2026",
+  "max_new_tokens": 4096,
+  "start": 0,
+  "limit": null,
+  "mode": "changed",
+  "changed": {
+    "correct": 21,
+    "total": 69,
+    "accuracy_percent": 30.434782608695656,
+    "max_token_hits": 41
+  },
+  "outputs": {
+    "changed_results_jsonl": "/kaggle/working/eval_outputs/eval_1_seed2024_test2026/evaluation_results_changed.jsonl",
+    "changed_progress_json": "/kaggle/working/eval_outputs/eval_1_seed2024_test2026/progress_changed.json",
+    "shard_dirs": [
+      "/kaggle/working/eval_outputs/eval_1_seed2024_test2026/shard_0",
+      "/kaggle/working/eval_outputs/eval_1_seed2024_test2026/shard_1"
+    ]
+  }
+}

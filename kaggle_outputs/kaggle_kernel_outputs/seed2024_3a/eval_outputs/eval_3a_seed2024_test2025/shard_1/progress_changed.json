@@ -1,0 +1,12 @@
+{
+  "status": "finished",
+  "model": "changed",
+  "max_new_tokens": 4096,
+  "completed": 35,
+  "remaining": 0,
+  "correct": 18,
+  "total": 35,
+  "accuracy_percent": 51.42857142857142,
+  "max_token_hits": 6,
+  "results_path": "/kaggle/working/eval_outputs/eval_3a_seed2024_test2025/shard_1/evaluation_results_changed.jsonl"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "finished",
+  "model": "changed",
+  "condition": "3a",
+  "seed": 2024,
+  "eval_split": "test_2026",
+  "max_new_tokens": 4096,
+  "completed": 69,
+  "remaining": 0,
+  "correct": 36,
+  "total": 69,
+  "accuracy_percent": 52.17391304347826,
+  "max_token_hits": 16,
+  "results_path": "/kaggle/working/eval_outputs/eval_3a_seed2024_test2026/evaluation_results_changed.jsonl"
+}
