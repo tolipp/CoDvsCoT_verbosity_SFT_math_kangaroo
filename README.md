@@ -7,9 +7,25 @@ training metadata used in the study. It is organized as a reproducibility
 archive for the reported Qwen3-8B supervised fine-tuning experiments on German
 Kangaroo mathematics multiple-choice problems.
 
+## Public Archive
+
+A public Kaggle copy of the SFT package downloaded from runpod is available at:
+
+- `https://www.kaggle.com/datasets/tolipp/codvscot-sft-math-repro-public`
+
+The Kaggle archive is a shareable distribution layer for the reproducibility
+package. Directory contents such as `kaggle_outputs/`, `scripts/`,
+`metadata/`, `environment/`, and `training_artifacts/` are stored there as tar
+archives because of the Kaggle upload format used for this release.
+
+Suggested citation for the Kaggle archive:
+
+- T. Lippuner, *CoDvsCoT SFT Math Repro Public*, Kaggle dataset, 2026.
+  `https://www.kaggle.com/datasets/tolipp/codvscot-sft-math-repro-public`
+
 ## Repository Overview
 
-- `generated_files/`: teacher annotation sources, cleaned teacher annotation
+- `generated_files/`: teacher annotation sources,  teacher annotation
   files, and condition-specific SFT data packages
 - `kaggle_outputs/`: preserved 2025 and 2026 evaluation outputs, plus archived
   OpenRouter baseline runs
