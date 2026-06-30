@@ -1,0 +1,4 @@
+run_label,checkpoint,global_step,epoch
+condition_2a_seed2024,checkpoint-12,12,1.0
+condition_2a_seed2024,checkpoint-24,24,2.0
+condition_2a_seed2024,checkpoint-33,33,2.782608695652174

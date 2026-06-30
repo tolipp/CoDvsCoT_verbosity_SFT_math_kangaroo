@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "reasoning-verbosity-sft-math-reproducibility"
+message: "If you use this repository, please cite the associated bachelor thesis."
+type: software
+authors:
+  - family-names: Lippuner
+    given-names: Tobias Adrian
+repository-code: "https://github.com/tolipp/reasoning-verbosity-sft-math-reproducibility"
+abstract: "Reproducibility repository for a Qwen3-8B supervised fine-tuning study on reasoning verbosity in German Kangaroo mathematics problem solving."
+keywords:
+  - supervised fine-tuning
+  - reasoning verbosity
+  - chain-of-thought
+  - Qwen3
+  - mathematical reasoning

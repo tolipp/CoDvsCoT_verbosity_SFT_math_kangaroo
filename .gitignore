@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local LaTeX build products
+*.aux
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.lof
+*.lol
+*.lot
+*.out
+*.run.xml
+*.toc
+
+# Local editor/system files
+.vscode/
+.idea/
+
+# Never commit secrets
+.env
+kaggle.json
