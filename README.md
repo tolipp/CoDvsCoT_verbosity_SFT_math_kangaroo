@@ -11,7 +11,7 @@ Kangaroo mathematics multiple-choice problems.
 
 A public Kaggle copy of the SFT package downloaded from runpod is available at:
 
-- `https://www.kaggle.com/datasets/tolipp/codvscot-sft-math-repro-public`
+- `https://www.kaggle.com/datasets/tolipp/codvscot-sft-math-repro`
 
 The Kaggle archive is a shareable distribution layer for the reproducibility
 package. Directory contents such as `kaggle_outputs/`, `scripts/`,
