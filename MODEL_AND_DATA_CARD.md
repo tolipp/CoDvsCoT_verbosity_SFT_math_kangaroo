@@ -11,45 +11,31 @@
   - validation year `2024`: `67`
   - held-out test year `2025`: `71`
 
-## Primary Training Snapshot
+## Public Artifact Layer
 
-The main reproduction layer for the thesis-result runs is:
+The current public repository surface preserves:
 
-- `generated_files/kaggle_qwen3_32b_5_conditions_2021_2023/data/`
+- source corpus files:
+  - `kaenguru_2021_2025_no_diagram_finetune.json`
+  - `kaenguru_2021_2023_no_diagram_finetune.json`
+  - `test_2025.jsonl`
+- 2025 row-level evaluation outputs in `kaggle_outputs/kaggle_kernel_outputs/`
+- 2026 row-level evaluation outputs in `kaggle_outputs/qwen3_8b_eval_2026/`
+- unchanged-model OpenRouter baseline outputs in
+  `kaggle_outputs/openrouter_qwen3_8b_pretrain_baseline_max4096_2025_2026/`
+- preserved training-loss histories in `training_artifacts/training_logs/`
+- preserved checkpoint-selection summaries in
+  `training_artifacts/checkpoint_selection/`
+- compact manifests in `metadata/`
 
-Training rows:
+This means the public archive is strongest as an artifact-backed reproducibility
+package for the reported analyses, not as a complete export of every
+intermediate local training package used during development.
 
-- official human solution: `185`
-- verbose solve: `183`
-- concise solve: `186`
-- concise rewrite: `186`
-- verbose rewrite: `186`
-
-Validation / held-out files:
-
-- `valid_2024.jsonl`: `67`
-- `val_2a.jsonl`: `46`
-- `val_3a.jsonl`: `63`
-- `val_4a.jsonl`: `67`
-- `val_5a.jsonl`: `67`
-- `test_2025.jsonl`: `71`
-
-Additional preserved variant:
-
-- `train_official_human_2021_2023_seed42_full_186.jsonl`: `186`
-
-The recovery record for this layer is in:
-
-- `metadata/RUNPOD_ALIGNED_PACKAGE.json`
-- `metadata/RUNPOD_ALIGNED_PACKAGE.md`
-
-## Secondary Canonical Release
-
-The repository also keeps a stricter source-rebuilt package at:
-
-- `generated_files/kaggle_qwen3_32b_5_conditions_2021_2023_canonical_refreshed/data/`
-
-That layer is useful for inspection and clean public release, but it is smaller than the preserved RunPod-aligned training snapshot.
+The accompanying Kaggle archive stores larger artifacts that are impractical to
+keep directly in GitHub, including bulk `generated_files/` packages,
+condition-specific SFT data packages, and final LoRA adapter artifacts where
+available.
 
 ## Supervision Conditions
 
@@ -79,20 +65,22 @@ Original or externally sourced:
 Derived in this project:
 
 - the text-only curated corpus JSON
-- qwen3-32b teacher annotation bundles
-- qwen3-32b rewrite bundles
-- condition-specific SFT JSONLs
+- qwen3-32b teacher annotation bundles, stored in the large Kaggle artifact
+  archive where not present in the lightweight GitHub tree
+- qwen3-32b rewrite bundles, stored in the large Kaggle artifact archive where
+  not present in the lightweight GitHub tree
+- condition-specific SFT JSONLs, stored in the large Kaggle artifact archive
+  where not present in the lightweight GitHub tree
 - evaluation outputs and summaries
 - failure-analysis tables and tags
-- fine-tuned LoRA adapters where preserved locally
+- fine-tuned LoRA adapters, stored in the large Kaggle artifact archive where
+  available
 - thesis text, figures, and tables
 
 ## Preserved Training Artifacts
 
 The repository preserves:
 
-- final LoRA adapters for all 15 student runs in `training_artifacts/final_adapters/`
-- `training_meta.json` and `trainer_state.json` alongside those adapters
 - extracted training-loss histories in `training_artifacts/training_logs/`
 - checkpoint-selection summaries in `training_artifacts/checkpoint_selection/`
 - consolidated manifests in:
@@ -106,8 +94,9 @@ The repository preserves:
 - The study does not isolate verbosity as a single factor; verbosity varies alongside source type and supervision format.
 - Only three student seeds are preserved.
 - The held-out test set contains `71` problems.
-- The RunPod-aligned package is a best-effort local reconstruction of the JSONLs referenced by the preserved student-run metadata.
-- Some rows in the historical training layer remain terse or answer-dominant because that is how the saved teacher-side artifacts survived.
+- The current public repository surface does not expose every intermediate local training package or helper script referenced during development.
+- Large generated training packages and final adapter artifacts are documented as
+  Kaggle archive artifacts rather than ordinary GitHub files.
 - Evaluation output length is not identical to supervised verbosity; some long student generations come from repetition or max-token behavior rather than useful reasoning.
 
 ## Redistribution Note

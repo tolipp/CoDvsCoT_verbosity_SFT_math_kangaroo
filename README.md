@@ -9,62 +9,51 @@ Kangaroo mathematics multiple-choice problems.
 
 ## Public Archive
 
-A public Kaggle copy of the SFT package downloaded from runpod is available at:
+A public Kaggle copy of the large artifact bundle is available at:
 
 - `https://www.kaggle.com/datasets/tolipp/codvscot-sft-math-repro`
 
 The Kaggle archive is a shareable distribution layer for the reproducibility
 package. Directory contents such as `kaggle_outputs/`, `scripts/`,
 `metadata/`, `environment/`, and `training_artifacts/` are stored there as tar
-archives because of the limited storage on github.
+archives because of the limited storage on GitHub. The GitHub repository is the
+readable, lightweight reproducibility layer. The Kaggle archive also stores the
+larger artifacts that are impractical to keep directly in GitHub, including the
+condition-specific `generated_files/` packages and the final LoRA adapter
+artifacts where available.
 
 Suggested citation for the Kaggle archive:
 
-- T. Lippuner, *CoDvsCoT SFT Math Repro Public*, Kaggle dataset, 2026.
-  `https://www.kaggle.com/datasets/tolipp/codvscot-sft-math-repro-public`
+- T. Lippuner, *CoDvsCoT SFT Math Repro*, Kaggle dataset, 2026.
+  `https://www.kaggle.com/datasets/tolipp/codvscot-sft-math-repro`
 
 ## Repository Overview
 
-- `generated_files/`: teacher annotation sources,  teacher annotation
-  files, and condition-specific SFT data packages
+- source corpus files:
+  - `kaenguru_2021_2025_no_diagram_finetune.json`
+  - `kaenguru_2021_2023_no_diagram_finetune.json`
+  - `test_2025.jsonl`
 - `kaggle_outputs/`: preserved 2025 and 2026 evaluation outputs, plus archived
   OpenRouter baseline runs
-- `training_artifacts/`: preserved final LoRA adapters, training-loss histories,
-  and checkpoint-selection records
+- `training_artifacts/`: preserved training-loss histories and
+  checkpoint-selection records
 - `scripts/`: rebuild and analysis scripts kept in the public package
 - `metadata/`: compact manifests for training data, training logs, checkpoints,
   and run metadata
 - `environment/`: dependency snapshots for analysis and training environments
 
-## Primary Training Snapshot
+Large artifact layers stored in the Kaggle archive rather than directly in
+GitHub include:
 
-The main training package for the reported Qwen3-8B student runs is:
-
-- `generated_files/kaggle_qwen3_32b_5_conditions_2021_2023/data/`
-
-Current row counts in that package:
-
-- `train_official_human_2021_2023.jsonl`: `186`
-- `train_qwen3_32b_verbose_2021_2023.jsonl`: `186`
-- `train_qwen3_32b_concise_2021_2023.jsonl`: `186`
-- `train_qwen3_32b_concise_rewrite_2021_2023.jsonl`: `186`
-- `train_qwen3_32b_verbose_rewrite_2021_2023.jsonl`: `186`
-- `valid_2024.jsonl`: `67`
-- `val_2a.jsonl`: `67`
-- `val_3a.jsonl`: `63`
-- `val_4a.jsonl`: `67`
-- `val_5a.jsonl`: `67`
-- `test_2025.jsonl`: `71`
-
-An additional official-human variant is also preserved:
-
-- `train_official_human_2021_2023_seed42_full_186.jsonl`: `186`
+- `generated_files/`: teacher annotation sources, teacher annotation files, and
+  condition-specific SFT data packages
+- final LoRA adapter artifacts for the student runs, where preserved
+- larger packaged bundles used for Kaggle/RunPod transfer
 
 ## Preserved Student Artifacts
 
 The repository preserves:
 
-- final LoRA adapters for all 15 student runs in `training_artifacts/final_adapters/`
 - extracted training-loss histories in `training_artifacts/training_logs/`
 - checkpoint-selection summaries in `training_artifacts/checkpoint_selection/`
 - full 2025 seed-by-condition evaluation artifacts in `kaggle_outputs/kaggle_kernel_outputs/`
@@ -99,6 +88,18 @@ Historical artifact labels:
   - train years `2021–2023`: `186`
   - validation year `2024`: `67`
   - held-out test year `2025`: `71`
+
+## Public Surface Note
+
+This public repository is an artifact-backed reproducibility archive. Its
+strongest preserved layer consists of the source corpus files, the row-level
+2025 and 2026 evaluation outputs, the OpenRouter baseline outputs, the training
+log and checkpoint manifests, and the analysis scripts that rebuild the reported
+tables from those artifacts. The large Kaggle archive complements this GitHub
+repository with bulk artifacts such as `generated_files/` and final adapter
+packages. Neither archive should be read as a guarantee of bit-identical
+retraining, because exact reproduction also depends on external model hosting,
+hardware, library versions, and GPU nondeterminism.
 
 ## Public Scripts
 
