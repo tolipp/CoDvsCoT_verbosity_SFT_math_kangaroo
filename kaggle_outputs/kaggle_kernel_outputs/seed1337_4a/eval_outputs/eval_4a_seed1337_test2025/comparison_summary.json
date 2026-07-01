@@ -7,10 +7,10 @@
   "limit": null,
   "mode": "changed",
   "changed": {
-    "correct": 14,
+    "correct": 37,
     "total": 71,
-    "accuracy_percent": 19.718309859154928,
-    "max_token_hits": 13
+    "accuracy_percent": 52.112676056338024,
+    "max_token_hits": 9
   },
   "outputs": {
     "changed_results_jsonl": "/kaggle/working/eval_outputs/eval_4a_seed1337_test2025/evaluation_results_changed.jsonl",

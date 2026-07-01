@@ -1,0 +1,226 @@
+{
+  "runs": [
+    {
+      "condition": "1",
+      "seed": 42,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed42_1/eval_outputs_refresh_2026-05-31/eval_1_seed42_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed42_1/eval_outputs/eval_1_seed42_test2025",
+      "correct": 32,
+      "total": 71,
+      "accuracy_percent": 45.07042253521127,
+      "max_token_hits": 33,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "5f045d20d73f157631b807c628881a9ee4af8d383f5b168d5a7b6f323c76b003"
+    },
+    {
+      "condition": "1",
+      "seed": 1337,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed1337_1/eval_outputs_refresh_2026-05-30/eval_1_seed1337_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed1337_1/eval_outputs/eval_1_seed1337_test2025",
+      "correct": 33,
+      "total": 71,
+      "accuracy_percent": 46.478873239436616,
+      "max_token_hits": 41,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "fae6b3b97c4ee52d5024e56a1c92a0c9b2c772c7e426347db30c536112f5a649"
+    },
+    {
+      "condition": "1",
+      "seed": 2024,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed2024_1/eval_outputs_refresh_2026-05-31/eval_1_seed2024_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed2024_1/eval_outputs/eval_1_seed2024_test2025",
+      "correct": 31,
+      "total": 71,
+      "accuracy_percent": 43.66197183098591,
+      "max_token_hits": 43,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "03a32c43092827ef9835c46c99fcd0fe1d49b5ff677a8fd9854b6f29751c9020"
+    },
+    {
+      "condition": "2a",
+      "seed": 42,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed42_2a/eval_outputs_refresh_2026-05-30/eval_2a_seed42_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed42_2a/eval_outputs/eval_2a_seed42_test2025",
+      "correct": 39,
+      "total": 71,
+      "accuracy_percent": 54.929577464788736,
+      "max_token_hits": 11,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "899a40859fc851b362bcb499b23f35b7beddace689db1c9421fa9b2affd3b945"
+    },
+    {
+      "condition": "2a",
+      "seed": 1337,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed1337_2a/eval_outputs_refresh_2026-05-30/eval_2a_seed1337_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed1337_2a/eval_outputs/eval_2a_seed1337_test2025",
+      "correct": 41,
+      "total": 71,
+      "accuracy_percent": 57.74647887323944,
+      "max_token_hits": 12,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "a084cac2395cd2992b02a0e387e25b905246a5c14d28e75575c7969c39cc676e"
+    },
+    {
+      "condition": "2a",
+      "seed": 2024,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed2024_2a/eval_outputs_refresh_2026-05-30/eval_2a_seed2024_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed2024_2a/eval_outputs/eval_2a_seed2024_test2025",
+      "correct": 35,
+      "total": 71,
+      "accuracy_percent": 49.29577464788733,
+      "max_token_hits": 10,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "79c390ead48e132b00105afb4fb68cb9d7ac561b9e43f9a60fd490cce3385f0e"
+    },
+    {
+      "condition": "3a",
+      "seed": 42,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed42_3a/eval_outputs/eval_3a_seed42_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed42_3a/eval_outputs/eval_3a_seed42_test2025",
+      "correct": 38,
+      "total": 71,
+      "accuracy_percent": 53.52112676056338,
+      "max_token_hits": 10,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "34264bbb1b3d444ab1919b59479b3965050edd4b0a188e9294e45909f9bc5d5f"
+    },
+    {
+      "condition": "3a",
+      "seed": 1337,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed1337_3a/eval_outputs/eval_3a_seed1337_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed1337_3a/eval_outputs/eval_3a_seed1337_test2025",
+      "correct": 40,
+      "total": 71,
+      "accuracy_percent": 56.33802816901409,
+      "max_token_hits": 13,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "037fc501f6b988414fccee0a4f07653288c61610621077bfd8a071f4592a698c"
+    },
+    {
+      "condition": "3a",
+      "seed": 2024,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed2024_3a/eval_outputs/eval_3a_seed2024_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed2024_3a/eval_outputs/eval_3a_seed2024_test2025",
+      "correct": 40,
+      "total": 71,
+      "accuracy_percent": 56.33802816901409,
+      "max_token_hits": 16,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "e56525d05e7ea28e4c73c1e67074268ded76c60909a82b4f73d9eed4ca2659c8"
+    },
+    {
+      "condition": "4a",
+      "seed": 42,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed42_4a/eval_outputs/eval_4a_seed42_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed42_4a/eval_outputs/eval_4a_seed42_test2025",
+      "correct": 41,
+      "total": 71,
+      "accuracy_percent": 57.74647887323944,
+      "max_token_hits": 10,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "7a02361a0c39b07a8f2c3a27217eb8778b50e42f7da879222390648d42ee4536"
+    },
+    {
+      "condition": "4a",
+      "seed": 1337,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed1337_4a/eval_outputs/eval_4a_seed1337_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed1337_4a/eval_outputs/eval_4a_seed1337_test2025",
+      "correct": 37,
+      "total": 71,
+      "accuracy_percent": 52.112676056338024,
+      "max_token_hits": 9,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "22bac30e4d91fedb13f4277dc0b9e25a23e19f9060753ca499c1e01c6ee2007c"
+    },
+    {
+      "condition": "4a",
+      "seed": 2024,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed2024_4a/eval_outputs/eval_4a_seed2024_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed2024_4a/eval_outputs/eval_4a_seed2024_test2025",
+      "correct": 41,
+      "total": 71,
+      "accuracy_percent": 57.74647887323944,
+      "max_token_hits": 15,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "a9eeff7bc7d3562d3f16fb8a55afe7c829119e326c7ff490c014381f032d21c6"
+    },
+    {
+      "condition": "5a",
+      "seed": 42,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed42_5a/unzipped/eval_outputs/eval_5a_seed42_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed42_5a/eval_outputs/eval_5a_seed42_test2025",
+      "correct": 41,
+      "total": 71,
+      "accuracy_percent": 57.74647887323944,
+      "max_token_hits": 2,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "7621a1f95bc78f3d736c59cae96c4e95a47b4f6d3f20c522572e5aa7c11a004b"
+    },
+    {
+      "condition": "5a",
+      "seed": 1337,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed1337_5a/eval_outputs/eval_5a_seed1337_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed1337_5a/eval_outputs/eval_5a_seed1337_test2025",
+      "correct": 42,
+      "total": 71,
+      "accuracy_percent": 59.154929577464785,
+      "max_token_hits": 2,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "da72b3fe4076f36d0c4be8a4bfd646e3b758fa47f088d781531b794bef0bf95f"
+    },
+    {
+      "condition": "5a",
+      "seed": 2024,
+      "source": "kaggle_outputs/kaggle_kernel_outputs/seed2024_5a/eval_outputs/eval_5a_seed2024_test2025",
+      "target": "kaggle_outputs/kaggle_kernel_outputs/seed2024_5a/eval_outputs/eval_5a_seed2024_test2025",
+      "correct": 36,
+      "total": 71,
+      "accuracy_percent": 50.70422535211267,
+      "max_token_hits": 5,
+      "jsonl_rows": 71,
+      "evaluation_results_sha256": "8809e722d94a5e1a69e340cc3fcd7100077b072af27e5a66811b84ade6f2310a"
+    }
+  ],
+  "summary": {
+    "1": {
+      "correct": 96,
+      "total": 213,
+      "max_hits": 117,
+      "runs": 3,
+      "accuracy_percent": 45.07042253521127,
+      "mean_max_token_hits": 39.0
+    },
+    "2a": {
+      "correct": 115,
+      "total": 213,
+      "max_hits": 33,
+      "runs": 3,
+      "accuracy_percent": 53.990610328638496,
+      "mean_max_token_hits": 11.0
+    },
+    "3a": {
+      "correct": 118,
+      "total": 213,
+      "max_hits": 39,
+      "runs": 3,
+      "accuracy_percent": 55.39906103286385,
+      "mean_max_token_hits": 13.0
+    },
+    "4a": {
+      "correct": 119,
+      "total": 213,
+      "max_hits": 34,
+      "runs": 3,
+      "accuracy_percent": 55.86854460093896,
+      "mean_max_token_hits": 11.333333333333334
+    },
+    "5a": {
+      "correct": 119,
+      "total": 213,
+      "max_hits": 9,
+      "runs": 3,
+      "accuracy_percent": 55.86854460093896,
+      "mean_max_token_hits": 3.0
+    }
+  }
+}

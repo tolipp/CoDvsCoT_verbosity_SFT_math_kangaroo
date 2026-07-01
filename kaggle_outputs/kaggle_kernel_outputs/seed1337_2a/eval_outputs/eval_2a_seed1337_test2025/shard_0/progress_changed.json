@@ -7,6 +7,6 @@
   "correct": 24,
   "total": 36,
   "accuracy_percent": 66.66666666666666,
-  "max_token_hits": 5,
+  "max_token_hits": 4,
   "results_path": "/kaggle/working/eval_outputs/eval_2a_seed1337_test2025/shard_0/evaluation_results_changed.jsonl"
 }

@@ -10,10 +10,10 @@
   "mode": "changed",
   "base": null,
   "changed": {
-    "correct": 17,
+    "correct": 21,
     "total": 36,
-    "accuracy_percent": 47.22222222222222,
-    "max_token_hits": 8
+    "accuracy_percent": 58.333333333333336,
+    "max_token_hits": 7
   },
   "delta_accuracy_percent": null,
   "outputs": {

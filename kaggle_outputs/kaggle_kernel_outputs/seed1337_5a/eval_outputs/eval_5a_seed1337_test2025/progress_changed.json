@@ -4,9 +4,9 @@
   "max_new_tokens": 4096,
   "completed": 71,
   "remaining": 0,
-  "correct": 28,
+  "correct": 42,
   "total": 71,
-  "accuracy_percent": 39.436619718309856,
-  "max_token_hits": 11,
+  "accuracy_percent": 59.154929577464785,
+  "max_token_hits": 2,
   "results_path": "/kaggle/working/eval_outputs/eval_5a_seed1337_test2025/evaluation_results_changed.jsonl"
 }

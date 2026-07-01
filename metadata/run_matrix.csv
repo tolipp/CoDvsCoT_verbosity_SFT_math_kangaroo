@@ -1,0 +1,16 @@
+condition,legacy_label,seed,strict_accuracy_percent,scorable_accuracy_percent,max_token_hits,mean_generated_tokens,artifact_provenance,row_level_artifact
+1,1,42,45.1,49.2,33,1971.2,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed42_1/eval_outputs/eval_1_seed42_test2025/evaluation_results_changed.jsonl
+1,1,1337,46.5,47.8,41,2418.6,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed1337_1/eval_outputs/eval_1_seed1337_test2025/evaluation_results_changed.jsonl
+1,1,2024,43.7,45.6,43,2516.2,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed2024_1/eval_outputs/eval_1_seed2024_test2025/evaluation_results_changed.jsonl
+2,2a,42,54.9,63.9,11,1005.6,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed42_2a/eval_outputs/eval_2a_seed42_test2025/evaluation_results_changed.jsonl
+2,2a,1337,57.7,66.1,12,1069.2,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed1337_2a/eval_outputs/eval_2a_seed1337_test2025/evaluation_results_changed.jsonl
+2,2a,2024,49.3,54.7,10,959.9,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed2024_2a/eval_outputs/eval_2a_seed2024_test2025/evaluation_results_changed.jsonl
+3,3a,42,53.5,57.6,10,854.6,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed42_3a/eval_outputs/eval_3a_seed42_test2025/evaluation_results_changed.jsonl
+3,3a,1337,56.3,64.5,13,1036.9,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed1337_3a/eval_outputs/eval_3a_seed1337_test2025/evaluation_results_changed.jsonl
+3,3a,2024,56.3,63.5,16,1120.9,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed2024_3a/eval_outputs/eval_3a_seed2024_test2025/evaluation_results_changed.jsonl
+4,4a,42,57.7,60.3,10,781.7,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed42_4a/eval_outputs/eval_4a_seed42_test2025/evaluation_results_changed.jsonl
+4,4a,1337,52.1,56.1,9,709.6,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed1337_4a/eval_outputs/eval_4a_seed1337_test2025/evaluation_results_changed.jsonl
+4,4a,2024,57.7,63.1,15,1031.8,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed2024_4a/eval_outputs/eval_4a_seed2024_test2025/evaluation_results_changed.jsonl
+5,5a,42,57.7,58.6,2,485.8,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed42_5a/unzipped/eval_outputs/eval_5a_seed42_test2025/evaluation_results_changed.jsonl
+5,5a,1337,59.2,59.2,2,527.7,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed1337_5a/eval_outputs/eval_5a_seed1337_test2025/evaluation_results_changed.jsonl
+5,5a,2024,50.7,53.7,5,671.2,artifact_backed_refresh,kaggle_outputs/kaggle_kernel_outputs/seed2024_5a/eval_outputs/eval_5a_seed2024_test2025/evaluation_results_changed.jsonl
