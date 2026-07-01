@@ -16,7 +16,7 @@ A public Kaggle copy of the SFT package downloaded from runpod is available at:
 The Kaggle archive is a shareable distribution layer for the reproducibility
 package. Directory contents such as `kaggle_outputs/`, `scripts/`,
 `metadata/`, `environment/`, and `training_artifacts/` are stored there as tar
-archives because of the Kaggle upload format used for this release.
+archives because of the limited storage on github.
 
 Suggested citation for the Kaggle archive:
 
