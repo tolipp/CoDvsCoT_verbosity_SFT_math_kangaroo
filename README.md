@@ -22,10 +22,6 @@ larger artifacts that are impractical to keep directly in GitHub, including the
 condition-specific `generated_files/` packages and the final LoRA adapter
 artifacts where available.
 
-Suggested citation for the Kaggle archive:
-
-- T. Lippuner, *CoDvsCoT SFT Math Repro*, Kaggle dataset, 2026.
-  `https://www.kaggle.com/datasets/tolipp/codvscot-sft-math-repro`
 
 ## Repository Overview
 
